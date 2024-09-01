@@ -45,6 +45,12 @@ struct ContentView: View {
                     .frame(width: 300, height: 300)
             }
             
+            Button(action: {
+                
+            }, label: {
+                Text("Stash Testing")
+            })
+            
         } // VStack
         .padding()
     }
