@@ -14,6 +14,7 @@
 		7B400E802C847CFA00F5C7CD /* GitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B400E7F2C847CFA00F5C7CD /* GitTestTests.swift */; };
 		7B400E8A2C847CFA00F5C7CD /* GitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B400E892C847CFA00F5C7CD /* GitTestUITests.swift */; };
 		7B400E8C2C847CFA00F5C7CD /* GitTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B400E8B2C847CFA00F5C7CD /* GitTestUITestsLaunchTests.swift */; };
+		7BB033692C848AFC00AEBB8E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB033682C848AFC00AEBB8E /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7B400E852C847CFA00F5C7CD /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B400E892C847CFA00F5C7CD /* GitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTestUITests.swift; sourceTree = "<group>"; };
 		7B400E8B2C847CFA00F5C7CD /* GitTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BB033682C848AFC00AEBB8E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				7B400E6E2C847CF900F5C7CD /* GitTestApp.swift */,
 				7B400E702C847CF900F5C7CD /* ContentView.swift */,
+				7BB033682C848AFC00AEBB8E /* ListView.swift */,
 				7B400E722C847CFA00F5C7CD /* Assets.xcassets */,
 				7B400E742C847CFA00F5C7CD /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				7B400E712C847CF900F5C7CD /* ContentView.swift in Sources */,
 				7B400E6F2C847CF900F5C7CD /* GitTestApp.swift in Sources */,
+				7BB033692C848AFC00AEBB8E /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
