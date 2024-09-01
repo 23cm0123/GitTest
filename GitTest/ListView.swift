@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct ListView: View {
+    
+    var testData = ["a", "b", "c", "d", "e"]
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(testData, id: \.self){ alp in
+                Text(alp)
+            }
+        }
     }
 }
 
