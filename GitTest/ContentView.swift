@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "heart.fill")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Github Testing Now...")
+            Text("Git Testing Now...")
         }
         .padding()
         .padding()
